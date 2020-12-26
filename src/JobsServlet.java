@@ -11,7 +11,7 @@ import javax.servlet.annotation.WebServlet;
 import java.sql.*;
 
  
-@WebServlet("/jobsServlet")
+@WebServlet("/JobsServlet")
 public class JobsServlet extends HttpServlet {
 	
 	
@@ -54,8 +54,7 @@ public class JobsServlet extends HttpServlet {
    }  
 
  
-        
-    protected void doPost(HttpServletRequest request,
+	protected void doPost(HttpServletRequest request,
             HttpServletResponse response) throws ServletException, IOException {
          
         
