@@ -9,7 +9,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
  
-@WebServlet("/loginServlet")
+import javax.servlet.RequestDispatcher;
+
+
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
  
     protected void doPost(HttpServletRequest request,
